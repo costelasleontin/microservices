@@ -12,6 +12,7 @@
  - nginx ingress service container,
  - rabbitmq asyncronous message broker container,
  - ms sql server database container (used by the platform service in production).
+ 
  Important aspects about the project:
  1) The platform service uses an ms sql server database in production (in K8S) and an inmemory database in development. The command and user services use an inmemory database for speeding up development.
  2) The example services are easy to run in both development local environment but you will need to either install an rabbitmq message broker locally or use the containerised version with an exit point through the asociated load balancer port(I used this one)
