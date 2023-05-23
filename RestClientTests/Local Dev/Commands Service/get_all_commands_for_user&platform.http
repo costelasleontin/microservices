@@ -1,0 +1,2 @@
+GET http://localhost:6000/api/c/platforms/3/commands/users/1 HTTP/1.1
+content-type: application/json

@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+option csharp_namespace = "UserService";
+
+service GrpcUser {
+    rpc GetAllUsers(GetAllRequest) returns (UserResponse);
+}
+
+message GetAllRequest {}
+
+message GrpcUserModel {
+    int32 userId = 1;
+    string firstName = 2;
+    string lastName = 3;
+    string phone = 4;
+    string email = 5;
+    string accountName = 6;
+    bool isWheel = 7;
+    bool isAdmin = 8;
+    string userRole = 9;
+    bool isActive = 10;
+    string accountCreationTime = 11;
+}
+
+message UserResponse {
+    repeated GrpcUserModel users = 1;
+}

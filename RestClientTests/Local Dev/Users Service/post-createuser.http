@@ -1,0 +1,15 @@
+POST http://localhost:7000/api/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "phone": "1234567",
+    "email": "jane_doe@io.com",
+    "accountName": "jane_doe",
+    "isWheel": false,
+    "isAdmin": false,
+    "userRole": 6,
+    "isActive": false,
+    "accountCreationTime": "2023-05-22T20:15:49.735027Z"
+}

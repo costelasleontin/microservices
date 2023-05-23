@@ -1,0 +1,14 @@
+POST http://localhost:7000/api/users HTTP/1.1
+content-type: application/json
+
+{
+    "firstName": "Chuck",
+    "lastName": "Norris2",
+    "phone": "1234567",
+    "email": "chuck_norris2@io.com",
+    "accountName": "chuck_norris2",
+    "isWheel": true,
+    "isAdmin": true,
+    "userRole": 0,
+    "isActive": true
+  }

@@ -1,0 +1,2 @@
+GET http://localhost:30471/api/platforms HTTP/1.1
+###

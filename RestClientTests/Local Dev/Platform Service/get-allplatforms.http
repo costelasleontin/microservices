@@ -1,0 +1,3 @@
+GET http://localhost:5000/api/platforms HTTP/1.1
+###
+GET http://localhost:5000/api/platforms/2 HTTP/1.1

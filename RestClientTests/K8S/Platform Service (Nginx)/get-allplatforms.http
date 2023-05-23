@@ -1,0 +1,2 @@
+GET http://acme.com/api/platforms HTTP/1.1
+###

@@ -1,0 +1,9 @@
+GET http://localhost:7000/api/users HTTP/1.1
+###
+GET http://localhost:7000/api/users/admins HTTP/1.1
+###
+GET http://localhost:7000/api/users/wheels HTTP/1.1
+###
+GET http://localhost:7000/api/users/nonactive HTTP/1.1
+###
+GET http://localhost:7000/api/users/2 HTTP/1.1

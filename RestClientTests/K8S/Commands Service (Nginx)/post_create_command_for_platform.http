@@ -1,0 +1,7 @@
+POST http://acme.com/api/c/platforms/3/commands HTTP/1.1
+content-type: application/json
+
+{
+    "HowTo":"Push a docker container to hub",
+    "CommandLine":"docker push <name of container>"
+}
