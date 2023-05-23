@@ -1,10 +1,13 @@
  This project implements the full introductory course presented by "Les Jackson" at https://www.youtube.com/watch?v=DgVjEo3OGBI&t=462s but it also adapts it to .net 6, since this is the current long term support .net version, and it also extends it to include an extra "UserService", that has the role of providing informations about the platforms users and making it posible for the extracted commands to be adapted based on user information.
+
  The diagram of the containerised services:
  ![Image](microservices.jpg "Les Jackson Microservices Extended")
+
  The project has 3 services:
  - CommandService,
  - PlatformService,
  - UserService.
+
  The project has the following containers:
  - command service container,
  - platform service container,
@@ -21,6 +24,6 @@
  5) The project uses rabbitmq to send async messages with the newlly created platforms and users from the platform and user services to the command service. GRPC is also used to fetch the initial list of platforms and users when the command service is starting up or restarting.
  6) The project deployment files are located in the K8S folder
  7) The RestClientTests folder contains easy to run api request with the "Rest Client" extension in Visual Studio Code
- 8) Don't worry about the visible passwords in the example. They aren't mine actuall passwords :P.
+ 8) Don't worry about the visible passwords in the example. They aren't mine actuall passwords, or are they?! :)
 
 
